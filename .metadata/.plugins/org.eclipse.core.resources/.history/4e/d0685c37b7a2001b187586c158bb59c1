@@ -1,0 +1,17 @@
+package fundamentos;
+
+public class DesafioAritmeticosResposta {
+	public static void main(String[] args) {
+		// Variaveis
+
+		double numA = Math.pow(6 * (3 + 2), 2);
+		double numB = Math.pow(((1 - 5) * (2 - 7)) / 2, 2);
+		double superiorA = numA / (3 * 2);
+		
+		double superior;
+		double inferior = Math.pow(10, 3);
+		
+		System.out.println(numA);
+		System.out.println(numB);
+	}
+}

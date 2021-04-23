@@ -1,9 +1,12 @@
 package fundamentos.operadores;
 
+import java.util.Scanner;
+
 import javax.swing.JOptionPane;
 
 public class DesafioCalculadoraPanel {
 	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
 
 		String num1 = JOptionPane.showInputDialog(null, "Digite o primeiro valor", "Primeiro valor",
 				JOptionPane.QUESTION_MESSAGE);
@@ -24,5 +27,7 @@ public class DesafioCalculadoraPanel {
 				JOptionPane.INFORMATION_MESSAGE);
 
 		System.out.printf("%.2f %s %.2f = %.2f", num1, op, num2, resultado);
+
+		entrada.close();
 	}
 }

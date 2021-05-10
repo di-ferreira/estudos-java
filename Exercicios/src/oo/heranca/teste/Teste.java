@@ -1,4 +1,8 @@
-package oo.heranca.desafio;
+package oo.heranca.teste;
+
+import oo.heranca.carro.Carro;
+import oo.heranca.carro.Civic;
+import oo.heranca.carro.Ferrari;
 
 public class Teste {
     public static void main(String[] args) {

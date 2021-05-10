@@ -1,11 +1,11 @@
 package oo.heranca.jogo;
 
 public class Monstro extends Jogador {
-    Monstro() {
+    public Monstro() {
         super(10, 10);
     }
 
-    Monstro(int x, int y) {
+    public Monstro(int x, int y) {
         super(x, y);
     }
 

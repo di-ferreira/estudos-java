@@ -1,11 +1,11 @@
 package oo.heranca.carro;
 
 public class Civic extends Carro {
-    Civic() {
+    public Civic() {
         this(250);
     }
 
-    Civic(int velMaxima) {
+    public Civic(int velMaxima) {
         super(velMaxima);
     }
 }

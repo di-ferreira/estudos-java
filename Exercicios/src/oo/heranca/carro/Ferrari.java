@@ -2,7 +2,7 @@ package oo.heranca.carro;
 
 public class Ferrari extends Carro {
 
-    Ferrari(int velMaxima) {
+    public Ferrari(int velMaxima) {
         super(velMaxima);
     }
 

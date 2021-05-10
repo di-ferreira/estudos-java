@@ -4,10 +4,10 @@ public class Carro {
     // var velocidade atual
     // metodo acelerara, frear
     final int VELOCIDADE_MAXIMA;
-    int velAtual = 0;
-    int delta = 5;
+    public int velAtual = 0;
+    protected int delta = 5;
 
-    public Carro(int VELOCIDADE_MAXIMA) {
+    protected Carro(int VELOCIDADE_MAXIMA) {
         this.VELOCIDADE_MAXIMA = VELOCIDADE_MAXIMA;
     }
 

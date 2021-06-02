@@ -1,6 +1,6 @@
 package lambdas;
 
-public class CalculoTest2 {
+public class CalculoTeste2 {
     public static void main(String[] args) {
 
         Calculo cal = (x, y) -> {

@@ -14,4 +14,8 @@ public class Aluno {
     public Aluno(String nome, double nota) {
         this(nome, nota, true);
     }
+
+    public String toString() {
+        return nome + " tem nota " + nota;
+    }
 }

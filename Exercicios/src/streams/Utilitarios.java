@@ -1,4 +1,4 @@
-package strams;
+package streams;
 
 import java.util.function.UnaryOperator;
 

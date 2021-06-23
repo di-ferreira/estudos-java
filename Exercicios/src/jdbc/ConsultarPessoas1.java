@@ -18,14 +18,14 @@ public class ConsultarPessoas1 {
 
         List<Pessoa> pessoas = new ArrayList<>();
 
-        while(resultado.next()){
+        while (resultado.next()) {
             int codigo = resultado.getInt("codigo");
             String nome = resultado.getString("nome");
-            pessoas.add(new Pessoa(codigo,nome));
+            pessoas.add(new Pessoa(codigo, nome));
         }
 
-        for (Pessoa p:pessoas){
-            System.out.println(p.getCodigo()+" -> "+p.getNome());
+        for (Pessoa p : pessoas) {
+            System.out.println(p.getCodigo() + " -> " + p.getNome());
         }
 
         stmt.close();

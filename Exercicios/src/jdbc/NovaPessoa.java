@@ -10,7 +10,7 @@ public class NovaPessoa {
         Scanner entrada = new Scanner(System.in);
 
         System.out.print("Informe o nome: ");
-        String nome = entrada.next();
+        String nome = entrada.nextLine();
 
         Connection conexao = FabricaConexao.getConexao();
 
@@ -22,6 +22,8 @@ public class NovaPessoa {
 
         System.out.println("Pessoa incluida com sucesso!");
 
+        conexao.close();
+        stmt.close();
         entrada.close();
     }
 }

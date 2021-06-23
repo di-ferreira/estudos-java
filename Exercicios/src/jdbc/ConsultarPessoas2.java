@@ -16,7 +16,7 @@ public class ConsultarPessoas2 {
         String sql = "SELECT * FROM pessoas WHERE nome LIKE ?";
 
         System.out.print("Informe o texto para busca: ");
-        String busca = entrada.next();
+        String busca = entrada.nextLine();
 
         PreparedStatement stmt = conexao.prepareStatement(sql);
         stmt.setString(1, "%" + busca + "%");
